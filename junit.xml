@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="18" failures="0" errors="0" time="5.132">
+  <testsuite name="testing validation functions" errors="0" failures="0" skipped="0" timestamp="2024-10-06T17:08:24" time="1.45" tests="10">
+    <testcase classname="testing validation functions testing validateUsername validateUsername should return true for a valid username" name="testing validation functions testing validateUsername validateUsername should return true for a valid username" time="0.018">
+    </testcase>
+    <testcase classname="testing validation functions testing validateUsername validateUsername should throw an error for a short username" name="testing validation functions testing validateUsername validateUsername should throw an error for a short username" time="0.001">
+    </testcase>
+    <testcase classname="testing validation functions testing validateUsername validateUsername should throw an error for a too long username" name="testing validation functions testing validateUsername validateUsername should throw an error for a too long username" time="0">
+    </testcase>
+    <testcase classname="testing validation functions testing validateUsername validateUsername should throw an error for a username with special characters" name="testing validation functions testing validateUsername validateUsername should throw an error for a username with special characters" time="0.001">
+    </testcase>
+    <testcase classname="testing validation functions testing validateUsername validateUsername should throw an error for a username with spaces" name="testing validation functions testing validateUsername validateUsername should throw an error for a username with spaces" time="0.001">
+    </testcase>
+    <testcase classname="testing validation functions testing validatePassword validatePassword should return true for a valid password" name="testing validation functions testing validatePassword validatePassword should return true for a valid password" time="0.001">
+    </testcase>
+    <testcase classname="testing validation functions testing validatePassword validatePassword should throw an error for a short password" name="testing validation functions testing validatePassword validatePassword should throw an error for a short password" time="0.001">
+    </testcase>
+    <testcase classname="testing validation functions testing validatePassword validatePassword should throw an error if no uppercase letter is present" name="testing validation functions testing validatePassword validatePassword should throw an error if no uppercase letter is present" time="0.001">
+    </testcase>
+    <testcase classname="testing validation functions testing validatePassword validatePassword should throw an error if no lowercase letter is present" name="testing validation functions testing validatePassword validatePassword should throw an error if no lowercase letter is present" time="0">
+    </testcase>
+    <testcase classname="testing validation functions testing validatePassword validatePassword should throw an error if no number or special character is present" name="testing validation functions testing validatePassword validatePassword should throw an error if no number or special character is present" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="testing hashPassword function" errors="0" failures="0" skipped="0" timestamp="2024-10-06T17:08:24" time="2.205" tests="4">
+    <testcase classname="testing hashPassword function Hash a valid password" name="testing hashPassword function Hash a valid password" time="0.116">
+    </testcase>
+    <testcase classname="testing hashPassword function Hash an empty password" name="testing hashPassword function Hash an empty password" time="0.093">
+    </testcase>
+    <testcase classname="testing comparePassword function Compare a valid password with its correct hash" name="testing comparePassword function Compare a valid password with its correct hash" time="0.158">
+    </testcase>
+    <testcase classname="testing comparePassword function Compare a valid password with an incorrect hash" name="testing comparePassword function Compare a valid password with an incorrect hash" time="0.172">
+    </testcase>
+  </testsuite>
+  <testsuite name="authentication tests" errors="0" failures="0" skipped="0" timestamp="2024-10-06T17:08:24" time="4.46" tests="4">
+    <testcase classname="authentication tests registration system users can successfully register" name="authentication tests registration system users can successfully register" time="0.739">
+    </testcase>
+    <testcase classname="authentication tests login system users can successfully login with correct credentials" name="authentication tests login system users can successfully login with correct credentials" time="0.447">
+    </testcase>
+    <testcase classname="authentication tests Testing API Endpoints Testing GET /api/posts" name="authentication tests Testing API Endpoints Testing GET /api/posts" time="0.052">
+    </testcase>
+    <testcase classname="authentication tests Testing API Endpoints Testing POST /api/posts" name="authentication tests Testing API Endpoints Testing POST /api/posts" time="0.1">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -4,6 +4,7 @@ const config = {
         'utils/*.{js,jsx}',
         '!utils/errorHandler.js'
     ],
+    "reporters": [ "default", "jest-junit" ]
 };
   
 module.exports = config;
